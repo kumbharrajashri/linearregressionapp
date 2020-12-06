@@ -7,4 +7,5 @@ Step3:Create a file named procfile
     P should be capital
 Step4:Initialize your project as git project
     git init
-Step4:Initialize your project as
+Step4:start tracking changes
+    git status
