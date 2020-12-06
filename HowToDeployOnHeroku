@@ -1,0 +1,10 @@
+Step1: Create a new conda env
+    conda create -n linearapp python==3.6.9
+Step2:Install requirements.txt
+    pip install - requirements.txt
+Step3:Create a file named procfile
+    there is o extension for this Procfile
+    P should be capital
+Step4:Initialize your project as git project
+    git init
+Step4:Initialize your project as
