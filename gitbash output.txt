@@ -1,0 +1,108 @@
+Rajashri@MSI MINGW64 ~/Ineuron/MLDL/Linear Regression/LinearRegressionApp (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/Rajashri/Ineuron/MLDL/Linear Regression/LinearRegressionApp/.git/
+
+Rajashri@MSI MINGW64 ~/Ineuron/MLDL/Linear Regression/LinearRegressionApp (master)
+$ git add .
+warning: LF will be replaced by CRLF in How to Run.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in requirements.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/css/style.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .idea/LinearRegressionApp.iml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .idea/inspectionProfiles/Project_Default.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .idea/inspectionProfiles/profiles_settings.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .idea/misc.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .idea/modules.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .idea/vcs.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in main.py.
+The file will have its original line endings in your working directory
+
+Rajashri@MSI MINGW64 ~/Ineuron/MLDL/Linear Regression/LinearRegressionApp (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .idea/.gitignore
+        new file:   .idea/LinearRegressionApp.iml
+        new file:   .idea/inspectionProfiles/Project_Default.xml
+        new file:   .idea/inspectionProfiles/profiles_settings.xml
+        new file:   .idea/misc.xml
+        new file:   .idea/modules.xml
+        new file:   .idea/vcs.xml
+        modified:   How to Run.txt
+        new file:   HowToDeployOnHeroku
+        deleted:    LinearRegressionApp.zip
+        new file:   Procfile
+        new file:   __pycache__/application.cpython-36.pyc
+        new file:   __pycache__/main.cpython-36.pyc
+        new file:   app
+        new file:   app.py
+        modified:   application.py
+        new file:   main.py
+        modified:   requirements.txt
+
+
+Rajashri@MSI MINGW64 ~/Ineuron/MLDL/Linear Regression/LinearRegressionApp (master)
+$ git commit -m "initial commit"
+[master da3d901] initial commit
+ 18 files changed, 180 insertions(+), 7 deletions(-)
+ create mode 100644 .idea/.gitignore
+ create mode 100644 .idea/LinearRegressionApp.iml
+ create mode 100644 .idea/inspectionProfiles/Project_Default.xml
+ create mode 100644 .idea/inspectionProfiles/profiles_settings.xml
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 .idea/vcs.xml
+ create mode 100644 HowToDeployOnHeroku
+ delete mode 100644 LinearRegressionApp.zip
+ create mode 100644 Procfile
+ create mode 100644 __pycache__/application.cpython-36.pyc
+ create mode 100644 __pycache__/main.cpython-36.pyc
+ create mode 100644 app
+ create mode 100644 app.py
+ create mode 100644 main.py
+
+Rajashri@MSI MINGW64 ~/Ineuron/MLDL/Linear Regression/LinearRegressionApp (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Rajashri@MSI MINGW64 ~/Ineuron/MLDL/Linear Regression/LinearRegressionApp (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   HowToDeployOnHeroku
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Rajashri@MSI MINGW64 ~/Ineuron/MLDL/Linear Regression/LinearRegressionApp (master)
+$ git add .
+
+Rajashri@MSI MINGW64 ~/Ineuron/MLDL/Linear Regression/LinearRegressionApp (master)
+$ git commit -m "steps added"
+[master 555b31b] steps added
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Rajashri@MSI MINGW64 ~/Ineuron/MLDL/Linear Regression/LinearRegressionApp (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Rajashri@MSI MINGW64 ~/Ineuron/MLDL/Linear Regression/LinearRegressionApp (master)
+$ heroku cli
+ »   Warning: cli is not a heroku command.
+Did you mean ci? [y/n]:
+ »   Error: Run heroku help for a list of available commands.
+
+Rajashri@MSI MINGW64 ~/Ineuron/MLDL/Linear Regression/LinearRegressionApp (master)
+$

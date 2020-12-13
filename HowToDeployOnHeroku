@@ -9,3 +9,11 @@ Step4:Initialize your project as git project
     git init
 Step4:start tracking changes
     git status
+Heroku commands:
+(from chat)
+# git init
+# git add .
+# git commit -m "initial commit"
+# heroku create
+# git remote -v
+# git push heroku master

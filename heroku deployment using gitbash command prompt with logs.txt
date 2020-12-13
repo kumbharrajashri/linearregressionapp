@@ -1,0 +1,409 @@
+
+Rajashri@MSI MINGW64 ~
+$ cd C:\Users\Rajashri\Ineuron\DLCVNLP\CNN\DogCatClassifier\DogCatAzure
+bash: cd: C:UsersRajashriIneuronDLCVNLPCNNDogCatClassifierDogCatAzure: No such file or directory
+
+Rajashri@MSI MINGW64 ~
+$ cd "C:\Users\Rajashri\Ineuron\DLCVNLP\CNN\DogCatClassifier\DogCatAzure"
+
+Rajashri@MSI MINGW64 ~/Ineuron/DLCVNLP/CNN/DogCatClassifier/DogCatAzure
+$ git init
+Initialized empty Git repository in C:/Users/Rajashri/Ineuron/DLCVNLP/CNN/DogCatClassifier/DogCatAzure/.git/
+
+Rajashri@MSI MINGW64 ~/Ineuron/DLCVNLP/CNN/DogCatClassifier/DogCatAzure (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Rajashri@MSI MINGW64 ~/Ineuron/DLCVNLP/CNN/DogCatClassifier/DogCatAzure (master)
+$ git add .
+warning: LF will be replaced by CRLF in HowToRun.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in cnn.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in predict.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in requirements.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/css/style.css.
+The file will have its original line endings in your working directory
+
+Rajashri@MSI MINGW64 ~/Ineuron/DLCVNLP/CNN/DogCatClassifier/DogCatAzure (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   HowToRun.txt
+        new file:   __pycache__/predict.cpython-36.pyc
+        new file:   app.py
+        new file:   cat.jpg
+        new file:   cnn.py
+        new file:   com_in_ineuron_ai_utils/__init__.py
+        new file:   com_in_ineuron_ai_utils/__pycache__/__init__.cpython-36.pyc
+        new file:   com_in_ineuron_ai_utils/__pycache__/utils.cpython-36.pyc
+        new file:   com_in_ineuron_ai_utils/utils.py
+        new file:   env setup.txt
+        new file:   inputImage.jpg
+        new file:   model.h5
+        new file:   predict.py
+        new file:   requirements.txt
+        new file:   requirements2.txt
+        new file:   static/css/main.css
+        new file:   static/css/style.css
+        new file:   templates/index.html
+
+
+Rajashri@MSI MINGW64 ~/Ineuron/DLCVNLP/CNN/DogCatClassifier/DogCatAzure (master)
+$ git commit -m "initial commit"
+[master (root-commit) b16ad9e] initial commit
+ 18 files changed, 874 insertions(+)
+ create mode 100644 HowToRun.txt
+ create mode 100644 __pycache__/predict.cpython-36.pyc
+ create mode 100644 app.py
+ create mode 100644 cat.jpg
+ create mode 100644 cnn.py
+ create mode 100644 com_in_ineuron_ai_utils/__init__.py
+ create mode 100644 com_in_ineuron_ai_utils/__pycache__/__init__.cpython-36.pyc
+ create mode 100644 com_in_ineuron_ai_utils/__pycache__/utils.cpython-36.pyc
+ create mode 100644 com_in_ineuron_ai_utils/utils.py
+ create mode 100644 env setup.txt
+ create mode 100644 inputImage.jpg
+ create mode 100644 model.h5
+ create mode 100644 predict.py
+ create mode 100644 requirements.txt
+ create mode 100644 requirements2.txt
+ create mode 100644 static/css/main.css
+ create mode 100644 static/css/style.css
+ create mode 100644 templates/index.html
+
+Rajashri@MSI MINGW64 ~/Ineuron/DLCVNLP/CNN/DogCatClassifier/DogCatAzure (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        heroku deployment using gitbash.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Rajashri@MSI MINGW64 ~/Ineuron/DLCVNLP/CNN/DogCatClassifier/DogCatAzure (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   app.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        heroku deployment using gitbash.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Rajashri@MSI MINGW64 ~/Ineuron/DLCVNLP/CNN/DogCatClassifier/DogCatAzure (master)
+$ git add .
+warning: LF will be replaced by CRLF in app.py.
+The file will have its original line endings in your working directory
+
+Rajashri@MSI MINGW64 ~/Ineuron/DLCVNLP/CNN/DogCatClassifier/DogCatAzure (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Procfile
+        modified:   app.py
+        new file:   heroku deployment using gitbash.txt
+
+
+Rajashri@MSI MINGW64 ~/Ineuron/DLCVNLP/CNN/DogCatClassifier/DogCatAzure (master)
+$ git commit -m "before deployment"
+[master f33e786] before deployment
+ 3 files changed, 6 insertions(+)
+ create mode 100644 Procfile
+ create mode 100644 heroku deployment using gitbash.txt
+
+Rajashri@MSI MINGW64 ~/Ineuron/DLCVNLP/CNN/DogCatClassifier/DogCatAzure (master)
+$ heroku login
+heroku: Press any key to open up the browser to login or q to exit:
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/3a728ca0-5ee9-4a76-803f-2ba60667541d?requestor=SFMyNTY.g2gDbQAAAA0xMDMuNTQuOTkuMTI5bgYAyV-qWnYBYgABUYA.nyjJmJ5vqHYXYoLgEUw_VqC7_KEhMTXv0G66TvQuF2k
+heroku: Waiting for login...
+Logging in... done
+Logged in as kumbhar.rajashri@gmail.com
+heroku create
+^CTerminate batch job (Y/N)? n
+n
+
+Rajashri@MSI MINGW64 ~/Ineuron/DLCVNLP/CNN/DogCatClassifier/DogCatAzure (master)
+$ heroku create
+Creating app... done, aqueous-shore-77062
+https://aqueous-shore-77062.herokuapp.com/ | https://git.heroku.com/aqueous-shore-77062.git
+
+Rajashri@MSI MINGW64 ~/Ineuron/DLCVNLP/CNN/DogCatClassifier/DogCatAzure (master)
+$ git remote -v
+heroku  https://git.heroku.com/aqueous-shore-77062.git (fetch)
+heroku  https://git.heroku.com/aqueous-shore-77062.git (push)
+
+Rajashri@MSI MINGW64 ~/Ineuron/DLCVNLP/CNN/DogCatClassifier/DogCatAzure (master)
+$ git push heroku master
+Enumerating objects: 31, done.
+Counting objects: 100% (31/31), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (27/27), done.
+Writing objects: 100% (31/31), 30.02 MiB | 831.00 KiB/s, done.
+Total 31 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote: -----> Python app detected
+remote: -----> Installing python-3.6.12
+remote: -----> Installing pip 20.1.1, setuptools 47.1.1 and wheel 0.34.2
+remote: -----> Installing SQLite3
+remote: -----> Installing requirements with pip
+remote:        Collecting absl-py==0.9.0
+remote:          Downloading absl-py-0.9.0.tar.gz (104 kB)
+remote:        Collecting astor==0.8.1
+remote:          Downloading astor-0.8.1-py2.py3-none-any.whl (27 kB)
+remote:        Collecting certifi==2019.11.28
+remote:          Downloading certifi-2019.11.28-py2.py3-none-any.whl (156 kB)
+remote:        Collecting click==7.1.1
+remote:          Downloading click-7.1.1-py2.py3-none-any.whl (82 kB)
+remote:        Collecting Flask==1.1.1
+remote:          Downloading Flask-1.1.1-py2.py3-none-any.whl (94 kB)
+remote:        Collecting Flask-Cors==3.0.8
+remote:          Downloading Flask_Cors-3.0.8-py2.py3-none-any.whl (14 kB)
+remote:        Collecting gast==0.3.3
+remote:          Downloading gast-0.3.3-py2.py3-none-any.whl (9.7 kB)
+remote:        Collecting google-pasta==0.2.0
+remote:          Downloading google_pasta-0.2.0-py3-none-any.whl (57 kB)
+remote:        Collecting grpcio==1.27.2
+remote:          Downloading grpcio-1.27.2-cp36-cp36m-manylinux2010_x86_64.whl (2.7 MB)
+remote:        Collecting gunicorn==20.0.4
+remote:          Downloading gunicorn-20.0.4-py2.py3-none-any.whl (77 kB)
+remote:        Collecting h5py==2.10.0
+remote:          Downloading h5py-2.10.0-cp36-cp36m-manylinux1_x86_64.whl (2.9 MB)
+remote:        Collecting itsdangerous==1.1.0
+remote:          Downloading itsdangerous-1.1.0-py2.py3-none-any.whl (16 kB)
+remote:        Collecting Jinja2==2.11.1
+remote:          Downloading Jinja2-2.11.1-py2.py3-none-any.whl (126 kB)
+remote:        Collecting Keras==2.3.1
+remote:          Downloading Keras-2.3.1-py2.py3-none-any.whl (377 kB)
+remote:        Collecting Keras-Applications==1.0.8
+remote:          Downloading Keras_Applications-1.0.8-py3-none-any.whl (50 kB)
+remote:        Collecting Keras-Preprocessing==1.1.0
+remote:          Downloading Keras_Preprocessing-1.1.0-py2.py3-none-any.whl (41 kB)
+remote:        Collecting Markdown==3.2.1
+remote:          Downloading Markdown-3.2.1-py2.py3-none-any.whl (88 kB)
+remote:        Collecting MarkupSafe==1.1.1
+remote:          Downloading MarkupSafe-1.1.1-cp36-cp36m-manylinux1_x86_64.whl (27 kB)
+remote:        Collecting numpy==1.18.2
+remote:          Downloading numpy-1.18.2-cp36-cp36m-manylinux1_x86_64.whl (20.2 MB)
+remote:        Collecting Pillow==7.0.0
+remote:          Downloading Pillow-7.0.0-cp36-cp36m-manylinux1_x86_64.whl (2.1 MB)
+remote:        Collecting protobuf==3.11.3
+remote:          Downloading protobuf-3.11.3-cp36-cp36m-manylinux1_x86_64.whl (1.3 MB)
+remote:        Collecting PyYAML==5.3.1
+remote:          Downloading PyYAML-5.3.1.tar.gz (269 kB)
+remote:        Collecting scipy==1.4.1
+remote:          Downloading scipy-1.4.1-cp36-cp36m-manylinux1_x86_64.whl (26.1 MB)
+remote:        Collecting six==1.14.0
+remote:          Downloading six-1.14.0-py2.py3-none-any.whl (10 kB)
+remote:        Collecting tensorboard==1.14.0
+remote:          Downloading tensorboard-1.14.0-py3-none-any.whl (3.1 MB)
+remote:        Collecting tensorflow==1.14.0
+remote:          Downloading tensorflow-1.14.0-cp36-cp36m-manylinux1_x86_64.whl (109.2 MB)
+remote:        Collecting tensorflow-estimator==1.14.0
+remote:          Downloading tensorflow_estimator-1.14.0-py2.py3-none-any.whl (488 kB)
+remote:        Collecting termcolor==1.1.0
+remote:          Downloading termcolor-1.1.0.tar.gz (3.9 kB)
+remote:        Collecting Werkzeug==1.0.0
+remote:          Downloading Werkzeug-1.0.0-py2.py3-none-any.whl (298 kB)
+remote:        Collecting wrapt==1.12.1
+remote:          Downloading wrapt-1.12.1.tar.gz (27 kB)
+remote:        Building wheels for collected packages: absl-py, PyYAML, termcolor, wrapt
+remote:          Building wheel for absl-py (setup.py): started
+remote:          Building wheel for absl-py (setup.py): finished with status 'done'
+remote:          Created wheel for absl-py: filename=absl_py-0.9.0-py3-none-any.whl size=121931 sha256=df260b42a5cb33231f7409497e5d1fe0aa1e1943db63cdefa3a246381bde8752
+remote:          Stored in directory: /tmp/pip-ephem-wheel-cache-4xyz4ynd/wheels/c3/af/84/3962a6af7b4ab336e951b7877dcfb758cf94548bb1771e0679
+remote:          Building wheel for PyYAML (setup.py): started
+remote:          Building wheel for PyYAML (setup.py): finished with status 'done'
+remote:          Created wheel for PyYAML: filename=PyYAML-5.3.1-cp36-cp36m-linux_x86_64.whl size=402156 sha256=5307e602cccbf66916f8f3ee04c3b014deb491be1a8d6a28a32bf03ac034f513
+remote:          Stored in directory: /tmp/pip-ephem-wheel-cache-4xyz4ynd/wheels/e5/9d/ad/2ee53cf262cba1ffd8afe1487eef788ea3f260b7e6232a80fc
+remote:          Building wheel for termcolor (setup.py): started
+remote:          Building wheel for termcolor (setup.py): finished with status 'done'
+remote:          Created wheel for termcolor: filename=termcolor-1.1.0-py3-none-any.whl size=4830 sha256=e8dbd2d73e713148cbab6d2ddf755138bdfbf36ff6ea8aff5e798201affa6c2f
+remote:          Stored in directory: /tmp/pip-ephem-wheel-cache-4xyz4ynd/wheels/93/2a/eb/e58dbcbc963549ee4f065ff80a59f274cc7210b6eab962acdc
+remote:          Building wheel for wrapt (setup.py): started
+remote:          Building wheel for wrapt (setup.py): finished with status 'done'
+remote:          Created wheel for wrapt: filename=wrapt-1.12.1-cp36-cp36m-linux_x86_64.whl size=69741 sha256=ab6c99671cd22058c81ea8562c3cecec35cec113027ec106ac706c7d4b3662ce
+remote:          Stored in directory: /tmp/pip-ephem-wheel-cache-4xyz4ynd/wheels/32/42/7f/23cae9ff6ef66798d00dc5d659088e57dbba01566f6c60db63
+remote:        Successfully built absl-py PyYAML termcolor wrapt
+remote:        Installing collected packages: six, absl-py, astor, certifi, click, itsdangerous, Werkzeug, MarkupSafe, Jinja2, Flask, Flask-Cors, gast, google-pasta, grpcio, gunicorn, numpy, h5py, PyYAML, scipy, Keras-Preprocessing, Keras-Applications, Keras, Markdown, Pillow, protobuf, tensorboard, wrapt, tensorflow-estimator, termcolor, tensorflow
+remote:        Successfully installed Flask-1.1.1 Flask-Cors-3.0.8 Jinja2-2.11.1 Keras-2.3.1 Keras-Applications-1.0.8 Keras-Preprocessing-1.1.0 Markdown-3.2.1 MarkupSafe-1.1.1 Pillow-7.0.0 PyYAML-5.3.1 Werkzeug-1.0.0 absl-py-0.9.0 astor-0.8.1 certifi-2019.11.28 click-7.1.1 gast-0.3.3 google-pasta-0.2.0 grpcio-1.27.2 gunicorn-20.0.4 h5py-2.10.0 itsdangerous-1.1.0 numpy-1.18.2 protobuf-3.11.3 scipy-1.4.1 six-1.14.0 tensorboard-1.14.0 tensorflow-1.14.0 tensorflow-estimator-1.14.0 termcolor-1.1.0 wrapt-1.12.1
+remote: -----> Discovering process types
+remote:        Procfile declares types -> web
+remote:
+remote: -----> Compressing...
+remote:        Done: 245.8M
+remote: -----> Launching...
+remote:        Released v3
+remote:        https://aqueous-shore-77062.herokuapp.com/ deployed to Heroku
+remote:
+remote: Verifying deploy... done.
+To https://git.heroku.com/aqueous-shore-77062.git
+ * [new branch]      master -> master
+
+Rajashri@MSI MINGW64 ~/Ineuron/DLCVNLP/CNN/DogCatClassifier/DogCatAzure (master)
+$ heroku logs
+2020-12-13T05:58:52.392474+00:00 app[api]: Release v1 created by user kumbhar.rajashri@gmail.com
+2020-12-13T05:58:52.392474+00:00 app[api]: Initial release by user kumbhar.rajashri@gmail.com
+2020-12-13T05:58:52.564687+00:00 app[api]: Enable Logplex by user kumbhar.rajashri@gmail.com
+2020-12-13T05:58:52.564687+00:00 app[api]: Release v2 created by user kumbhar.rajashri@gmail.com
+2020-12-13T06:06:08.000000+00:00 app[api]: Build started by user kumbhar.rajashri@gmail.com
+2020-12-13T06:08:10.104665+00:00 app[api]: Deploy f33e786b by user kumbhar.rajashri@gmail.com
+2020-12-13T06:08:10.104665+00:00 app[api]: Release v3 created by user kumbhar.rajashri@gmail.com
+2020-12-13T06:08:10.118543+00:00 app[api]: Scaled to web@1:Free by user kumbhar.rajashri@gmail.com
+2020-12-13T06:08:24.971890+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2020-12-13T06:08:27.219873+00:00 app[web.1]: [2020-12-13 06:08:27 +0000] [4] [INFO] Starting gunicorn 20.0.4
+2020-12-13T06:08:27.220480+00:00 app[web.1]: [2020-12-13 06:08:27 +0000] [4] [INFO] Listening at: http://0.0.0.0:12883 (4)
+2020-12-13T06:08:27.220572+00:00 app[web.1]: [2020-12-13 06:08:27 +0000] [4] [INFO] Using worker: sync
+2020-12-13T06:08:27.226067+00:00 app[web.1]: [2020-12-13 06:08:27 +0000] [10] [INFO] Booting worker with pid: 10
+2020-12-13T06:08:27.277072+00:00 app[web.1]: [2020-12-13 06:08:27 +0000] [11] [INFO] Booting worker with pid: 11
+2020-12-13T06:08:27.491293+00:00 heroku[web.1]: State changed from starting to up
+2020-12-13T06:08:27.787953+00:00 app[web.1]: Using TensorFlow backend.
+2020-12-13T06:08:27.856843+00:00 app[web.1]: Using TensorFlow backend.
+2020-12-13T06:08:28.064317+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:28.064326+00:00 app[web.1]: _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+2020-12-13T06:08:28.064491+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:28.064492+00:00 app[web.1]: _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+2020-12-13T06:08:28.064641+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:28.064641+00:00 app[web.1]: _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+2020-12-13T06:08:28.064959+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:28.064960+00:00 app[web.1]: _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+2020-12-13T06:08:28.065111+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:28.065111+00:00 app[web.1]: _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+2020-12-13T06:08:28.065253+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:28.065254+00:00 app[web.1]: np_resource = np.dtype([("resource", np.ubyte, 1)])
+2020-12-13T06:08:28.122568+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:28.122574+00:00 app[web.1]: _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+2020-12-13T06:08:28.122636+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:28.122637+00:00 app[web.1]: _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+2020-12-13T06:08:28.122748+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:28.122749+00:00 app[web.1]: _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+2020-12-13T06:08:28.122871+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:28.122871+00:00 app[web.1]: _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+2020-12-13T06:08:28.122951+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:28.122951+00:00 app[web.1]: _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+2020-12-13T06:08:28.123020+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:28.123021+00:00 app[web.1]: np_resource = np.dtype([("resource", np.ubyte, 1)])
+2020-12-13T06:08:29.809682+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:29.809691+00:00 app[web.1]: _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+2020-12-13T06:08:29.809743+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:29.809744+00:00 app[web.1]: _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+2020-12-13T06:08:29.809824+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:29.809825+00:00 app[web.1]: _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+2020-12-13T06:08:29.809901+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:29.809902+00:00 app[web.1]: _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+2020-12-13T06:08:29.809984+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:29.809985+00:00 app[web.1]: _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+2020-12-13T06:08:29.810058+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:29.810058+00:00 app[web.1]: np_resource = np.dtype([("resource", np.ubyte, 1)])
+2020-12-13T06:08:29.974697+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:29.974701+00:00 app[web.1]: _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+2020-12-13T06:08:29.974778+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:29.974779+00:00 app[web.1]: _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+2020-12-13T06:08:29.974853+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:29.974853+00:00 app[web.1]: _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+2020-12-13T06:08:29.974944+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:29.974944+00:00 app[web.1]: _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+2020-12-13T06:08:29.975015+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:29.975016+00:00 app[web.1]: _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+2020-12-13T06:08:29.975084+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:29.975086+00:00 app[web.1]: np_resource = np.dtype([("resource", np.ubyte, 1)])
+2020-12-13T06:08:56.000000+00:00 app[api]: Build succeeded
+2020-12-13T06:10:26.129900+00:00 heroku[router]: at=info method=GET path="/" host=aqueous-shore-77062.herokuapp.com request_id=624019a7-5575-4877-badb-ff981c403337 fwd="103.54.99.129" dyno=web.1 connect=1ms service=15ms status=200 bytes=11848 protocol=https
+2020-12-13T06:10:26.130247+00:00 app[web.1]: 10.5.206.253 - - [13/Dec/2020:06:10:26 +0000] "GET / HTTP/1.1" 200 11653 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.60"
+2020-12-13T06:10:37.109019+00:00 heroku[router]: at=info method=GET path="/" host=aqueous-shore-77062.herokuapp.com request_id=b426cb54-1f5e-4b77-a9f7-beffabb87663 fwd="103.54.99.129" dyno=web.1 connect=1ms service=2ms status=200 bytes=11848 protocol=https
+2020-12-13T06:10:37.109875+00:00 app[web.1]: 10.33.162.24 - - [13/Dec/2020:06:10:37 +0000] "GET / HTTP/1.1" 200 11653 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36"
+2020-12-13T06:10:38.152299+00:00 app[web.1]: 10.45.9.232 - - [13/Dec/2020:06:10:38 +0000] "GET / HTTP/1.1" 200 11653 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+2020-12-13T06:10:38.156086+00:00 heroku[router]: at=info method=GET path="/" host=aqueous-shore-77062.herokuapp.com request_id=53e1702f-cb62-4645-ab50-af3a753f3f8e fwd="35.185.241.102" dyno=web.1 connect=1ms service=7ms status=200 bytes=11848 protocol=http
+
+Rajashri@MSI MINGW64 ~/Ineuron/DLCVNLP/CNN/DogCatClassifier/DogCatAzure (master)
+$ heroku logs --tail
+2020-12-13T05:58:52.392474+00:00 app[api]: Release v1 created by user kumbhar.rajashri@gmail.com
+2020-12-13T05:58:52.392474+00:00 app[api]: Initial release by user kumbhar.rajashri@gmail.com
+2020-12-13T05:58:52.564687+00:00 app[api]: Enable Logplex by user kumbhar.rajashri@gmail.com
+2020-12-13T05:58:52.564687+00:00 app[api]: Release v2 created by user kumbhar.rajashri@gmail.com
+2020-12-13T06:06:08.000000+00:00 app[api]: Build started by user kumbhar.rajashri@gmail.com
+2020-12-13T06:08:10.104665+00:00 app[api]: Deploy f33e786b by user kumbhar.rajashri@gmail.com
+2020-12-13T06:08:10.104665+00:00 app[api]: Release v3 created by user kumbhar.rajashri@gmail.com
+2020-12-13T06:08:10.118543+00:00 app[api]: Scaled to web@1:Free by user kumbhar.rajashri@gmail.com
+2020-12-13T06:08:24.971890+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2020-12-13T06:08:27.219873+00:00 app[web.1]: [2020-12-13 06:08:27 +0000] [4] [INFO] Starting gunicorn 20.0.4
+2020-12-13T06:08:27.220480+00:00 app[web.1]: [2020-12-13 06:08:27 +0000] [4] [INFO] Listening at: http://0.0.0.0:12883 (4)
+2020-12-13T06:08:27.220572+00:00 app[web.1]: [2020-12-13 06:08:27 +0000] [4] [INFO] Using worker: sync
+2020-12-13T06:08:27.226067+00:00 app[web.1]: [2020-12-13 06:08:27 +0000] [10] [INFO] Booting worker with pid: 10
+2020-12-13T06:08:27.277072+00:00 app[web.1]: [2020-12-13 06:08:27 +0000] [11] [INFO] Booting worker with pid: 11
+2020-12-13T06:08:27.491293+00:00 heroku[web.1]: State changed from starting to up
+2020-12-13T06:08:27.787953+00:00 app[web.1]: Using TensorFlow backend.
+2020-12-13T06:08:27.856843+00:00 app[web.1]: Using TensorFlow backend.
+2020-12-13T06:08:28.064317+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:28.064326+00:00 app[web.1]: _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+2020-12-13T06:08:28.064491+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:28.064492+00:00 app[web.1]: _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+2020-12-13T06:08:28.064641+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:28.064641+00:00 app[web.1]: _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+2020-12-13T06:08:28.064959+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:28.064960+00:00 app[web.1]: _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+2020-12-13T06:08:28.065111+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:28.065111+00:00 app[web.1]: _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+2020-12-13T06:08:28.065253+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:28.065254+00:00 app[web.1]: np_resource = np.dtype([("resource", np.ubyte, 1)])
+2020-12-13T06:08:28.122568+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:28.122574+00:00 app[web.1]: _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+2020-12-13T06:08:28.122636+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:28.122637+00:00 app[web.1]: _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+2020-12-13T06:08:28.122748+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:28.122749+00:00 app[web.1]: _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+2020-12-13T06:08:28.122871+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:28.122871+00:00 app[web.1]: _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+2020-12-13T06:08:28.122951+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:28.122951+00:00 app[web.1]: _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+2020-12-13T06:08:28.123020+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:28.123021+00:00 app[web.1]: np_resource = np.dtype([("resource", np.ubyte, 1)])
+2020-12-13T06:08:29.809682+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:29.809691+00:00 app[web.1]: _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+2020-12-13T06:08:29.809743+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:29.809744+00:00 app[web.1]: _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+2020-12-13T06:08:29.809824+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:29.809825+00:00 app[web.1]: _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+2020-12-13T06:08:29.809901+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:29.809902+00:00 app[web.1]: _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+2020-12-13T06:08:29.809984+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:29.809985+00:00 app[web.1]: _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+2020-12-13T06:08:29.810058+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:29.810058+00:00 app[web.1]: np_resource = np.dtype([("resource", np.ubyte, 1)])
+2020-12-13T06:08:29.974697+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:29.974701+00:00 app[web.1]: _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+2020-12-13T06:08:29.974778+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:29.974779+00:00 app[web.1]: _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+2020-12-13T06:08:29.974853+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:29.974853+00:00 app[web.1]: _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+2020-12-13T06:08:29.974944+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:29.974944+00:00 app[web.1]: _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+2020-12-13T06:08:29.975015+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:29.975016+00:00 app[web.1]: _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+2020-12-13T06:08:29.975084+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+2020-12-13T06:08:29.975086+00:00 app[web.1]: np_resource = np.dtype([("resource", np.ubyte, 1)])
+2020-12-13T06:08:56.000000+00:00 app[api]: Build succeeded
+2020-12-13T06:10:26.129900+00:00 heroku[router]: at=info method=GET path="/" host=aqueous-shore-77062.herokuapp.com request_id=624019a7-5575-4877-badb-ff981c403337 fwd="103.54.99.129" dyno=web.1 connect=1ms service=15ms status=200 bytes=11848 protocol=https
+2020-12-13T06:10:26.130247+00:00 app[web.1]: 10.5.206.253 - - [13/Dec/2020:06:10:26 +0000] "GET / HTTP/1.1" 200 11653 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.60"
+2020-12-13T06:10:37.109019+00:00 heroku[router]: at=info method=GET path="/" host=aqueous-shore-77062.herokuapp.com request_id=b426cb54-1f5e-4b77-a9f7-beffabb87663 fwd="103.54.99.129" dyno=web.1 connect=1ms service=2ms status=200 bytes=11848 protocol=https
+2020-12-13T06:10:37.109875+00:00 app[web.1]: 10.33.162.24 - - [13/Dec/2020:06:10:37 +0000] "GET / HTTP/1.1" 200 11653 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36"
+2020-12-13T06:10:38.152299+00:00 app[web.1]: 10.45.9.232 - - [13/Dec/2020:06:10:38 +0000] "GET / HTTP/1.1" 200 11653 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+2020-12-13T06:10:38.156086+00:00 heroku[router]: at=info method=GET path="/" host=aqueous-shore-77062.herokuapp.com request_id=53e1702f-cb62-4645-ab50-af3a753f3f8e fwd="35.185.241.102" dyno=web.1 connect=1ms service=7ms status=200 bytes=11848 protocol=http
